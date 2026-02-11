@@ -7,6 +7,5 @@ public class AssignmetQ13 {
 		int jersyNumber = 14;
 		
        System.out.println("my name is "+name+ " and my jersy number is "+jersyNumber+".");
+            }
 	}
-
-}
