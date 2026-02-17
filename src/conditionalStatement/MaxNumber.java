@@ -1,6 +1,6 @@
 package conditionalStatement;
 
-public class A3Q11 {
+public class MaxNumber {
 
 	public static void main(String[] args) {
 		int a = 50;
