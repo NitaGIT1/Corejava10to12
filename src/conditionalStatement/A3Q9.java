@@ -3,22 +3,25 @@ package conditionalStatement;
 import java.util.Scanner;
 
 public class A3Q9 {
-
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter temperature");
-		int temp = sc.nextInt();
+		System.out.print("Enter Marks: ");
+		int marks = sc.nextInt();
 
-		if (temp > 30) {
-			System.out.println("Its hot");
-		} else if (20 <= temp && temp <= 30) {
-			System.out.println("Its warm");
-		} else if (10 <= temp && temp <= 19) {
-			System.out.println("Its cold");
+		if (marks >= 90 && marks <= 100) {
+			System.out.println("Grade A+");
+		} else if (marks >= 80 && marks <= 89) {
+			System.out.println("Grade A");
+		} else if (marks >= 70 && marks <= 79) {
+			System.out.println("Grade B");
+		} else if (marks >= 60 && marks <= 69) {
+			System.out.println("Grade C");
+		} else if (marks < 60 && marks >= 0) {
+			System.out.println("Fail");
 		} else {
-			System.out.println("Its very cold");
+			System.out.println("Invalid Marks");
 		}
 	}
-
 }
