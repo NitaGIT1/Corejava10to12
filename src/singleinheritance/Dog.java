@@ -1,4 +1,4 @@
-package singleinheritance;
+package singleInheritance;
 
 public class Dog extends Animal{
 	void bark() {
