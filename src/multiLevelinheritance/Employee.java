@@ -1,4 +1,4 @@
-package multiLevelInheritance;
+package multiLevelinheritance;
 
 public class Employee extends Person{
 	void job() {
