@@ -1,4 +1,4 @@
-package multilevelinheritance;
+package multiLevelInheritance;
 
 public class Dog extends Mammal {
 	void bark() {

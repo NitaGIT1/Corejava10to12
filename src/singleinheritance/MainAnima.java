@@ -1,6 +1,6 @@
-package singleinheritance;
+package singleInheritance;
 
-public class MainAnimal {
+public class MainAnima {
 
 	public static void main(String[] args) {
 		Dog d1 = new Dog();
