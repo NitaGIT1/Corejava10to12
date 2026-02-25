@@ -1,4 +1,4 @@
-package IterativeStatement;
+package iterativeStatement;
 
 public class DoWhile6Table {
 
