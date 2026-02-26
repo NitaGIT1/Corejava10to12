@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 public class AssignmentQ7 {
 	    int a = 50;

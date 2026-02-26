@@ -15,8 +15,12 @@ public class NumberList {
 		numbers.add(199);
 
 		System.out.println("ArrayList after adding numbers: " + numbers);
+		
+		
 
 		System.out.println("After retrieving the element at index 4: " + numbers.get(4));
+		
+		
 
 		numbers.remove(Integer.valueOf(78));
 		System.out.println("After removing element of 78: " + numbers);

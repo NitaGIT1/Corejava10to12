@@ -1,4 +1,4 @@
-package Variables;
+package variables;
 
 public class AreaofRectangle {
         int length = 5;
