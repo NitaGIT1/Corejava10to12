@@ -16,6 +16,8 @@ public class ArrayListDemo {
 		System.out.println("ArrayList after adding element : " + numbers);
 		
 
+		numbers.set(3, 200);
+		System.out.println("Insert 200 at the thrid position in an ArrayList of numbers"+numbers);
 		// 3. Removing an element (by value)
 		numbers.remove(Integer.valueOf(20));
 		System.out.println("After removing first occurence of 20: " + numbers);
