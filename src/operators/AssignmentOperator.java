@@ -10,5 +10,4 @@ public class AssignmentOperator {
 		System.out.println(num /=4);
 		System.out.println(num %=3);
 	}
-
 }

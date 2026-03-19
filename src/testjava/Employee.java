@@ -1,6 +1,7 @@
-package encapsulation;
+package testjava;
 
 public class Employee {
+
 	private String empId;
 	private double salary;
 
@@ -10,6 +11,7 @@ public class Employee {
 
 	public String getEmpId() {
 		return empId;
+
 	}
 
 	public void setSalary(double sal) {
@@ -18,6 +20,6 @@ public class Employee {
 
 	public double getSalary() {
 		return salary;
-	}
 
+	}
 }
