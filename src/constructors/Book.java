@@ -10,8 +10,7 @@ public class Book {
 		author = "KP Sharma";
 		price = 1000;
 	}
-
-	void displayDetails() {
+    void displayDetails() {
 		System.out.println("Title : " + title);
 		System.out.println("Author : " + author);
 		System.out.println("Price : " + price);
@@ -21,5 +20,4 @@ public class Book {
 		Book b1 = new Book();
 		b1.displayDetails();
 	}
-
 }

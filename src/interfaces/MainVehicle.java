@@ -1,6 +1,6 @@
 package interfaces;
 
-public class MainInterface {
+public class MainVehicle {
 
 	public static void main(String[] args) {
 		Bike b1 = new Bike();
